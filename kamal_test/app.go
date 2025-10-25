@@ -6,7 +6,7 @@ import (
 )
 
 var port = ":80"
-var content = "Que bolón!💪"
+var content = "What's up!💪"
 
 func main() {
 	http.HandleFunc("/", index)

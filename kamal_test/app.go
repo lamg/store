@@ -10,7 +10,8 @@ var content = "Que bolón!💪"
 
 func main() {
 	http.HandleFunc("/", index)
-	fmt.Println("listening on port", port)
+	fmt.Println("listening on port:", port)
+	fmt.Println("with content:", content)
 	http.ListenAndServe(port, nil)
 }
 
